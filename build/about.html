@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Qualipharml Laboratorio Farmaceutico</title>
+    <title>Qualipharm Laboratorio Farmaceutico</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="icon" href="favicon.ico"><link href="style.css" rel="stylesheet"></head>
   <body
     x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }"
@@ -54,7 +58,7 @@
           <li><a href="clientes.html" class="xl">Clientes</a></li>
           <li><a href="modelos.html" class="xl">Modelos De Negocio</a></li>
           <li><a href="#support" class="xl">Contactos</a></li>
-          <li style="position:absolute;right:20px;"><a href="index.html" class=""><img src="./images/home-svgrepo-com.svg" style="height: 50px; float: right !important;"/></a></li>
+          <li style="position:absolute;right:20px;"><a href="index.html" class=""><img src="./images/home-simple-svgrepo-com.svg" style="height: 30px; float: right !important;"/></a></li>
           
         </ul>
       </nav>
@@ -116,7 +120,7 @@
       <!-- ===== About End ===== -->
       <!-- ===== Small Features Start ===== -->
       <section id="quienesSomos">
-        <div class="bb ze ki yn 2xl:ud-px-12.5 do">
+        <div class="bb ze ki yn 2xl:ud-px-12.5 do" style="padding-top: 0px;">
           <div class="tc uf zo xf ap zf bp mq">
             <!-- Small Features Item -->
             <div class="animate_top kn to/3 tc cg oq">
@@ -157,6 +161,83 @@
         </div>
       </section>
       <!-- ===== Small Features End ===== -->
+      <section class="i pg qh rm ji hp" style="text-align: center; padding: 20px;">
+        <h2 class="fk vj pr kk wm on/5 gq/2 bb _b" style="margin-bottom: 30px;">Nuestros Valores</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="bb ye ki xn vq jb jo">
+                    <div class="wc qf pn xo zf iq">
+                      <!-- Blog Item -->
+                        <div class="yh" style="background-color: rgb(132, 223, 193);">
+                          <h4 class="ek tj ml il kk wm xl eq lb">
+                            <p style="color: white;">Honestidad</p>
+                          </h4>
+                        </div>
+                        <div class="yh" style="background-color: rgb(112, 182, 223);">
+                          <h4 class="ek tj ml il kk wm xl eq lb">
+                            <p style="color: white;">Responsabilidad</p>
+                          </h4>
+                        </div>
+                        <div class="yh" style="background-color: rgb(147, 67, 184);">
+                          
+                          <h4 class="ek tj ml il kk wm xl eq lb">
+                            <p style="color: white;">Trabajo en Equipo</p>
+                          </h4>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item" style="margin-left: 200px;">
+                <div class="bb ye ki xn vq jb jo">
+                    <div class="wc qf pn xo zf iq">
+                      <!-- Blog Item -->
+                        <div class="yh" style="background-color: rgb(233, 190, 111);">
+                          <h4 class="ek tj ml il kk wm xl eq lb">
+                            <p style="color: white;">Coraje</p>
+                          </h4>
+                        </div>
+                        <div class="yh" style="background-color: rgb(226, 228, 95);">
+                          <h4 class="ek tj ml il kk wm xl eq lb">
+                            <p style="color: white;">Alegría</p>
+                          </h4>
+                        </div>
+                        
+                      
+                    </div>
+                </div>
+            </div>
+        
+            <!--
+            <div class="carousel-item active">
+              <img class="d-block w-25 h-50" src="logosClientes/logo-megalabs-green.png" alt="Megalabs" >
+            </div>
+          -->
+            
+            <!--
+            <div class="carousel-item active">
+              <img class="d-block w-25 h-50" src="logosClientes/roddome.png" alt="Roddome" >
+            </div>
+          -->
+            
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        
+        </section>
+  
 
       <!-- ===== Team Start ===== -->
       <section class="i pg ji gp uq">
@@ -203,9 +284,7 @@
               </div>
 
               <div class="yh">
-                <div class="tc uf wf ag jq">
-                  
-                </div>
+                
                 <h4 class="ek tj ml il kk wm xl eq lb">
                   <a href="productos.html">Nuestros Productos</a>
                 </h4>
@@ -231,7 +310,7 @@
                   
                 </div>
                 <h4 class="ek tj ml il kk wm xl eq lb">
-                  <a href="clientes.html">Nuestros CLIENTES</a>
+                  <a href="clientes.html">Nuestros Clientes</a>
                 </h4>
               </div>
             </div>
@@ -269,13 +348,13 @@
       <!-- ===== Pricing Table Start ===== -->
       <section x-data="setup()" class="i pg fh rm ji gp uq">
         <!-- Bg Shapes -->
-        <img src="images/shape-06.svg" alt="Shape" class="h aa y" />
+        
         <img src="images/shape-03.svg" alt="Shape" class="h ca u" />
         <img src="images/shape-07.svg" alt="Shape" class="h w da ee" />
         <img src="images/shape-12.svg" alt="Shape" class="h p s" />
         <img src="images/shape-13.svg" alt="Shape" class="h r q" />
 
-        11
+        
 
       <!-- ===== Contact Start ===== -->
       <section id="support" class="i pg fh rm ji gp uq">
