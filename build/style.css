@@ -2616,3 +2616,23 @@ h1,  h2,  h3,  h4,  h5,  h6{
 
 }
 
+.centrar{
+  text-align: center;
+}
+
+.tamVerde{
+  height: 80px;
+  width: auto;
+  margin: auto; 
+  margin-top: 60px;   
+  display: block;
+}
+
+.tamVerde{
+  height: 100px;
+  width: auto;
+  margin: auto; 
+  margin-top: 60px;   
+  display: block;
+}
+
